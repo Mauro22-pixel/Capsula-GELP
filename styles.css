@@ -42,3 +42,54 @@ footer {
   text-align: center;
   background: #f2f2f2;
 }
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.product-card {
+  background: #042283d2;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform .4s ease, box-shadow .4s ease;
+}
+
+.product-card h3 {
+  color: #ffffff;
+  transition: color .3s ease;
+}
+
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgb(250, 250, 250);
+}
+
+.product-card.active {
+  outline: 2px solid rgba(255,255,255,.15);
+}
+
+
+.product-card img {
+  width: 100%;
+  display: block;
+  transition: transform .6s ease;
+}
+
+.product-info {
+  padding: 1.2rem;
+}
+
+.product-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: .4rem;
+}
+
+.product-info p {
+  font-size: .9rem;
+  opacity: .75;
+}
