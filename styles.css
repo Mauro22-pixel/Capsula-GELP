@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #0a1f44;
+  background: #ffffff;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+  background: #0a1f44;
+  color: white;
+}
+
+section {
+  padding: 4rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  letter-spacing: 1px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  background: #f2f2f2;
+}
