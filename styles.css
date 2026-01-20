@@ -6,14 +6,20 @@ body {
 }
 
 .hero {
-  height: 100vh;
+  min-height: 100vh;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 4rem;
-  background: #0a1f44;
+  align-items: center;
+  padding: clamp(2rem, 6vw, 5rem);
   color: white;
+  background:
+    linear-gradient(
+      rgba(10, 31, 68, 0.85),
+      rgba(10, 31, 68, 0.85)
+    ),
+    url("assets/images/hero.jpg") center / cover no-repeat;
 }
+
 
 section {
   padding: 4rem;
