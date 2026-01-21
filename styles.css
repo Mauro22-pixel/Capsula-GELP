@@ -7,19 +7,71 @@ body {
 
 .hero {
   min-height: 100vh;
-  position: relative;
   display: flex;
   align-items: center;
-  padding: clamp(2rem, 6vw, 5rem);
+  justify-content: center;
+  padding: 2rem;
   color: white;
   background:
     linear-gradient(
       rgba(10, 31, 68, 0.85),
       rgba(10, 31, 68, 0.85)
     ),
-    url("assets/images/hero.jpg") center / cover no-repeat;
+    url("assets/images/manga22.jpg") center / cover no-repeat;
 }
 
+.hero-content {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tag {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  opacity: 0.7;
+}
+
+/* TÍTULO PRINCIPAL */
+.hero h1 {
+  font-family: 'Pirata One', serif;
+  font-size: clamp(3.5rem, 8vw, 6.5rem);
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+/* SUBTÍTULO INSTITUCIONAL */
+.hero h2 {
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+/* FRASE */
+.hero-subtitle {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+  opacity: 0.85;
+}
+
+/* BOTÓN */
+.btn {
+  padding: 0.9rem 2.2rem;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
 
 section {
   padding: 4rem;
@@ -92,4 +144,5 @@ footer {
 .product-info p {
   font-size: .9rem;
   opacity: .75;
+  color: #ffffff;
 }
