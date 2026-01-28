@@ -17,7 +17,7 @@ body {
       rgba(10, 31, 68, 0.85),
       rgba(10, 31, 68, 0.85)
     ),
-    url("assets/images/manga22.jpg") center / cover no-repeat;
+    url("assets/images/la-banda-22.jpg") center / cover no-repeat;
 }
 
 .hero-content {
@@ -163,4 +163,79 @@ footer {
   font-size: .9rem;
   opacity: .75;
   color: #ffffff;
+}
+
+/* =========================
+   BRANDBOOK — LOBO EN LA CALLE
+========================= */
+
+
+.brandbook {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+}
+
+.brandbook-intro {
+  max-width: 700px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 4rem;
+}
+
+.brand-block {
+  margin-bottom: 4rem;
+}
+
+.brand-block h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Tipografía */
+.type-sample {
+  margin-top: 1.5rem;
+}
+
+.type-sample span {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.5rem;
+  opacity: 0.6;
+}
+
+.type-sample.gothic p {
+  font-family: 'TriperoGothic', serif;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.type-sample.sans p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+
+/* Colores */
+.color-palette {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.color-swatch {
+  flex: 1;
+  padding: 2rem;
+}
+
+.color-swatch.dark {
+  background-color: #0b1c2d;
+  color: #fff;
+}
+
+.color-swatch.light {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #ddd;
 }
